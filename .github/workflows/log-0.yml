@@ -1,10 +1,10 @@
-name: Generate Lots of Logs
+name: Generate Lots of Logs 0
 
 on: [workflow_dispatch]
 
 jobs:
   generate_logs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20-04-ppc64le
 
     steps:
       - name: Checkout code
